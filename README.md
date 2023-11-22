@@ -18,10 +18,6 @@ O dispositivo é alimentado e monitora automaticamente as condições do ambient
 
 O display LCD exibirá os valores de temperatura e umidade em tempo real.
 
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
-
 ## Importância para Prevenção de Epidemias
 
 O Projeto de Detecção de Doenças no Esgoto desempenha um papel crucial na prevenção de epidemias, oferecendo uma abordagem inovadora para monitorar a presença de patógenos no ambiente. Aqui estão algumas razões pelas quais esse projeto é importante:
