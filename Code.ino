@@ -78,9 +78,10 @@ void checkAndSoundBuzzer(float humidity, float temperature) {
   bool isHumidityOutOfRange = (humidity < 20 || humidity > 40);
 
   if (isTemperatureOutOfRange || isHumidityOutOfRange) {
-    // Aciona o buzzer
-    digitalWrite(BUZZER_PIN, HIGH);
-    delay(1000);  // Mantém o buzzer ligado por 1 segundo
-    digitalWrite(BUZZER_PIN, LOW);
+    // Aciona o buzzer com um tom específico (ajuste conforme necessário)
+    tone(BUZZER_PIN, 3000); 
+  } else {
+    // Desliga o buzzer
+    noTone(BUZZER_PIN);
   }
 }
